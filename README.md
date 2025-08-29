@@ -41,16 +41,9 @@ O servidor iniciará em `0.0.0.0:5001` e uma janela será aberta mostrando:
 ### 2. App Android
 
 ```bash
-# 1. Criar novo projeto Android Studio
-# 2. Substituir os arquivos pelos códigos fornecidos:
-#    - MainActivity.kt
-#    - activity_main.xml
-#    - AndroidManifest.xml
-#    - build.gradle (Module: app)
-#    - Arquivos drawable (button_background.xml, status_background.xml)
-
-# 3. Sync do projeto no Android Studio
-# 4. Executar no dispositivo físico (emulador pode não ter câmera)
+# 1. Clona repositorio do github
+# 2. No Android Studio, abrir o projeto na pasta client
+# 3. Executar no dispositivo físico (emulador pode não ter câmera)
 ```
 
 **Importante**: Altere o IP padrão no `MainActivity.kt` linha 36:
